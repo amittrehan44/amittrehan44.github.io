@@ -39,6 +39,8 @@ header a.logo span { display: none }
 header div.hero { position: absolute; width: 42%; top: 130px; left: 55%; }
 header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color: #fff; }
 
+/* below is added not to display hero section */
+header div.hero {display: none;}
 
 /* Section - All */
 section { padding: 0 30px; }
